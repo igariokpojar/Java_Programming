@@ -1,0 +1,7 @@
+IF the instance variable is final, we can only getter, we can not generate setter for it
+
+what is the benefit of adding the finally block?
+
+     - It allows us to close the file/connection (remember, it was good to close the scanner object.
+       Another example closing a database connection).
+       But generally we will not use it. But it is important in terms of interview. You must explain what it is.
