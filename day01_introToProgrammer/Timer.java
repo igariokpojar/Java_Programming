@@ -1,4 +1,4 @@
-package src.day01_introToProgrammer;
+package day01_introToProgrammer;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package src.day01_introToProgrammer.Task;
+package day01_introToProgrammer.Task;
 
 import utilities.ArrasUtility;
 import utilities.StringUtility;

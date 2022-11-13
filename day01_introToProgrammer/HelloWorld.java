@@ -1,4 +1,4 @@
-package src.day01_introToProgrammer; //This is the package name
+package day01_introToProgrammer; //This is the package name
 
 public class HelloWorld { //This is class header
 

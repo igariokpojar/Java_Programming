@@ -1,4 +1,4 @@
-package src.day01_introToProgrammer.Task;
+package day01_introToProgrammer.Task;
 
 public class Task1 {
     public static void main(String[] args) {
