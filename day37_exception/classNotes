@@ -1,0 +1,45 @@
+Java Programming Day37
+
+Topics: Exceptions
+			- check vs unchecked
+			- try & catch
+
+		Error vs Exception
+
+package name: day37_exceptions
+
+warmup tasks:
+	1. Create a class named Pizza
+			variables:
+				size (char), numberOfCheeseTopping, numberOfPepperoniTopping
+
+			Encapsulate all the fields
+
+			Add a constructor that can set all the fields
+
+			Methods:
+				calcCost(): returns the total cost of the pizza
+
+			Override toString method to print Pizza object info when the object is passed in the print statement
+
+			Override equals method that returns true if the pizza object is equal to the specified pizza object
+
+
+
+Exceptions Topics:
+	1. Exceptions Intro
+	2. Checkd & unchecked
+	3. Try & Cacth
+	4. Throws Keyword
+	          try&Catch vs throw
+	5. Throw keyword
+	          throws vs trow
+	6. Custom Exception
+
+	7. Error vs Exceptions
+
+
+final vs finally:
+        final: is a keyword==> unchangeable
+        finalize: is a method ==> is  use to collect the objects that are eligible for garbage collection
+        finally: can only use with try&catch
