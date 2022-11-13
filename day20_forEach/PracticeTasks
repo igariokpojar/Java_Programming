@@ -1,0 +1,59 @@
+ 1. Write a program that can reverse the second word of the sentence
+             Ex:
+                 sentence = "I Love Java";
+
+             output:
+                 I evoL Java
+
+
+ 2.  Write a program that can count the even and odd number from an array of integers
+
+ 			Note: MUST use for each loop
+
+ 3. Write a program that can print out the common elements from two integer array
+           Ex:
+               arr1: {1,2,3,4,5}
+               arr2: {4,5,6,7,8}
+
+           output:
+               4 5
+
+
+           MUST use for each loops
+
+
+ 4. write a program that can count how many palindromes in an array of string
+         Ex:
+             {"anna", "level", "Java"};
+
+             output:
+                 2
+
+ 5. Write a program that can display the unique elements of an array
+
+ 			MUST use for each loops
+
+
+ 			1. write a program that can multiply each odd number of an integer array by 2
+                            ex:
+                                array = [1,2,3,4,5];
+
+                            output:
+                                array =[2,2,6,4,10]
+
+            2. write a program that can merge two arrays of integers
+                    Ex:
+                        arr1 = {1,2,3,4}
+                        arr2 = {5,6}
+
+                    output
+                        arr3 = {1,2,3,4,5,6}
+
+
+            3. Write a program that can display the unique elements of an array of inetgers
+                    Ex:
+                        arr = {1, 2, 3, 1, 2, 4, 5, 5}
+
+                    output:
+                        3
+                        4
