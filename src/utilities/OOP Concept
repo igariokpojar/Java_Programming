@@ -1,0 +1,67 @@
+OOP Principles:                         Class: blueprint of Objects
+1. Encapsulation: hiding data:
+                          - use getter/setters to read/write
+2. Inheritance: IS A relation ==> parent (super) & child (sub)
+Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
+                          -child (sub) class inherits all the variables & methods of parent class that are accessible
+                          -parent (super) class: does not inherit anything. for common           features ONLY
+                          -one class can only extend one class
+                          -one class can implement multiple interfaces
+3. Abstraction:  - hiding the function details from the user
+           - concentrate on essentials/importance (what it is), not worrying      about the details/implementations (how it's done)
+           abstract method: a method without the body, meant to be overridden
+Abstraction class vs Interface: both are used for achieving abstraction
+                                both cannot be instantiated
+                                                                            both are meant to be inherited
+                                                                            both cannot be final
+1. abstract class: - meant to be parent (super)
+            - can never be final
+           - to provide the common variable & methods to all child classes ONLY
+           - Cannot create object from it
+2. Interface: blueprint of class
+•	specifies what the class must have
+•	cannot be final
+•	Cannot create object from it
+•	to Provide additional methods that any class needs
+What interface can it have?
+variables: final & static ONLY
+methods: abstract method, static method, default method (treated as instance method in child classes)
+     - Access modifiers: public ONLY (private can be given to static methods)
+What interface cannot have?
+•	instance variables
+•	instance methods
+•	constructors
+•	blocks
+Why do we need an interface?
+one class can only extend one class, but one class can implement multiple interfaces
+extends vs implements:
+extends:    class extends class
+            interfaces extend interface(s)
+implements: class implements interfaces
+extends & implements extends first then implements
+
+OOP... Polymorphism: parent type being referenced to the child objects
+                  ability of the objects to take on many forms
+                  “IS A” relation is a must
+Reference type can be either parent class or parent interface, and objects must be created from child class
+Reference type decide what can be accessed/called
+(If we need to access the future that are in object type, but not in the reference type, then we need down casting)
+Object type decide which implementation will be executed
+Runtime polymorphism (dynamic polymorphism): method overriding
+             One method with multiple implementation (revealed during the time)
+             eat ():
+             implementation1: Placinte
+             implementation2: Salarii
+Compile time polymorphism (static polymorphism): method overloading
+                                                 multiple methods with the same name
+                     each method has one implementation ONLY (reveal during the compile time)
+                      add (num1, num2)  :  add (num1, num2, num3)
+A class is a template, blueprint, or contract that defines what an object’s data
+fields and methods will be. An object is an instance of a class. You can create
+many instances of a class. A java class uses variables to define data fields and
+methods to define actions. Additionally, a class provides methods of a special
+type, known as constructors, which are invoked to create a new object. A
+constructor can perform any action, but constructors are designed to perform
+initializing actions, such as initializing the data fields of objects. Objects are made up of
+attributes and methods. Attributes are the characteristics that define an object, the values
+contained in attributes differentiate objects of the same class from one another.

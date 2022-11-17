@@ -1,0 +1,159 @@
+Java Programming Day19
+
+Topics: Arrays Intro
+
+package name: day19_array
+
+
+Data Structure: to use the data efficeintly. allows us to store the data in an organized manner
+
+			1. Array
+			2. Collection
+			3. Map
+
+
+regular variable:
+
+		DataType  variableName;
+		int        age;
+		char       gender;
+		String     name;
+		....
+
+Array:
+		DataType[]  variableName;
+
+
+
+Arrays Utility class:  Arrays
+
+		presented in "java.util"
+
+
+		import java.util.Arrays;
+
+
+
+Task:
+	1. Write a program that can find the maximum number from an array
+
+	2. Write a program that can find the minimum number from an array
+
+	3. Create a char array and store all the alphabet letters in ascending order
+
+	4. Create a char array and store all the alphabet letters in descending order
+
+	5. AverageNumber:
+	            1. Ask the user how many numbers they want to enter
+	            2. get all the inputs from the user and store them into an array
+	            3. Iterate the array & return the average number
+
+
+    6. Items
+			1. Create an array named items with the length of 5
+			2. Create an array named prices with the length of 5
+			3. Ask user to enter item name and price 5 times and store them into the items and prices arrays
+			4. calculate the total price of the arrays
+			5. display each item name and price in separate lines
+
+						ItemName -- Price
+
+
+
+
+
+
+1. Create a class named Pizza:
+            Attributes:
+                1. size
+                2. numberOfCheeseTopping
+                3. numberOfPepperoniTopping
+
+            Actions:
+                calcCost(): returns the total cost of the pizza
+                toString():returns a String containing the pizza size, quantity of each topping, and the pizza cost as calculated by calcCost()
+
+        Pizza cost is determined by:
+                        S: $10 + $2 per topping
+                        M: $12 + $2 per topping
+                        L: $14 + $2 per topping
+
+2. Create a custom class named BankAccount:
+            Attributes:
+                1. accountHolder
+                2. accountNumber
+                3. balance
+
+            Actions:
+                1. setInfo(): sets the accountHolder and accountNumber attributes
+
+                2. toString(): displays the full account info
+
+                3. checkBalance():displays the available balance
+
+                4. deposit(amount): increases the balance by the specified amount
+
+                5. withdraw(amount): decreases the balance by the specified amount
+
+                1. create an array named classmates, and store 10 of your classmates' full names
+                            print the initials of each classmates in separate lines
+
+
+                2. create string array, and store the names of your  class mates (10)
+                            reverse each students names and print them in separate lines
+                            	ex:
+                            		arr = {java, python, c#}
+
+                        		output:
+                        			avaJ
+                        			nohtyp
+                        			#c
+
+                3. Given the following arrays:
+                        String[] items  = {"Shoes", "Jacket",  "Gloves", "AirPods", "iPad", "iPhone 12 case" };
+                        double[] prices = {99.99,      150.0,  9.99,     250.0 ,    439.50,  39.99};
+                        int[] itemIDs =   {12345 ,     12346,  12347,    12348,     12349,    12350};
+
+
+                        1. find out the first index number of "Gloves"
+
+                        2. find out if "iPad" is contained in the item list
+
+                        3. Print the report of each shopping item
+                            name - price - #ID
+
+
+                4. given the following arrays:
+                		     	String [] names = {"Anna", "Nancy", "Sarah"};
+                		        int [] scores = {90, 75, 80};
+                		        char [] grades = new char[names.length];
+
+                         1. write a program that can store the grades of the students in the array named grades
+                         2. print the grade report of each students in separate lines
+                         		Ex:
+                         			Anna's score is 90, and grade is A
+
+
+                6.  Write a program that can reverse an array of integers and returns it as new array
+                        ex:
+                            array = {1,2,3,4,5};
+
+                        output:
+                            reversedArray = {5,4,3,2,1};
+
+
+                7. write a program that can move all the zeros to the end of the array
+                        Ex:
+                            array = {10, 0, 5, 0, 1, 0};
+
+                            output:
+                                 {10, 5, 1, 0, 0, 0}
+
+
+                8. Write a program that can print out the common elements from two integer array
+                          Ex:
+                              arr1: {1,2,3,4,5}
+                              arr2: {4,5,6,7,8}
+
+                          output:
+                              4 5
